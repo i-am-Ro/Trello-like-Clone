@@ -1,12 +1,25 @@
-# React + Vite
+🚀 Setup Instructions
+Clone the repository:
+git clone https://github.com/i-am-Ro/Trello-like-Clone.git
+cd Trello-like-Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Install dependencies:
+npm install
 
-Currently, two official plugins are available:
+Run the development server:
+npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Open in browser:
+http://localhost:5713
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⚠️ Known Limitations
+Drag-and-drop works for cards only (not reordering entire lists or boards).
+State persistence limited to localStorage (no backend).
+Performance not optimized for very large datasets.
+
+
+🎯 Completed Bonus Features
+✅ Drag-and-drop boards (reordering boards on dashboard).
+
+✅ Export/import entire state as JSON (to allow backup and restore).
